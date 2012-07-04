@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            id="DevUtilsPlugin.categorys.DevUtils"
+            name="DevUtils">
+      </category>
+      <view
+            category="DevUtilsPlugin.categorys.DevUtils"
+            class="devutilsplugin.views.DigestUtilView"
+            id="DevUtilsPlugin.views.DigestUtilView"
+            name="DigestUtilView"
+            restorable="true">
+      </view>
+      <view
+            category="DevUtilsPlugin.categorys.DevUtils"
+            class="devutilsplugin.views.URLCodecView"
+            id="DevUtilsPlugin.views.URLCodecView"
+            name="URLCodecView"
+            restorable="true">
+      </view>
+   </extension>
+
+</plugin>
